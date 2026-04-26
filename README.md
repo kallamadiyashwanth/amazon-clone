@@ -1,0 +1,2 @@
+# amazon-clone
+This project is a visual replica of the amazon platform
