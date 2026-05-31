@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/orders.css";
@@ -24,5 +25,16 @@ const Orders = () => {
     </div>
   );
 };
+=======
+import "./style.css";
+
+const Orders = () => {
+    return(
+        <div className="child-components">
+            <h1>No orders RN</h1>
+        </div>  
+    );
+}
+>>>>>>> ae41a18d1cbf10515b49674a2a496843bc5cc4a1
 
 export default Orders;
