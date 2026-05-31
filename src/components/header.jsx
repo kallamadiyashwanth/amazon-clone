@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faCartShopping, faLocationDot, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { BrowserRouter as Router, Route, Routes, NavLink } from "react-router-dom";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 
 import "../styles/header.css";
 import Shop from "./shop-section";
@@ -12,7 +12,7 @@ import Login from "./login";
 import ProductView from "./common/ProductView";
 
 const Header = () => {
-  const cartCount = useSelector((state) => state.count);
+  // const cartCount = useSelector((state) => state.count);
   return (
     <div className="parent">
       <header>
@@ -65,9 +65,9 @@ const Header = () => {
             <NavLink to="/cart" activeClassName="active">
               <div class="nav-cart border">
                 <FontAwesomeIcon icon={faCartShopping} className="cartIcon" />
-                {cartCount > 0 && (
+                {/* {cartCount > 0 && (
                   <span className="cart-badge">{cartCount}</span>
-                )}
+                )} */}
                 Cart
               </div>
             </NavLink>

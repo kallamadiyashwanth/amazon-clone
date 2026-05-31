@@ -154,10 +154,10 @@ span {
 
 
 .cart-badge {
-    position: absolute;
+    /* position: absolute;
     top: 9px;
     right: 62px;
-    background-color: red;
+    background-color: red; */
     color: white;
     font-size: 12px;
     font-weight: bold;
