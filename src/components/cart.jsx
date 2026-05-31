@@ -1,5 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { increment, decrement, removeItem } from "../redux/actions";
@@ -143,20 +142,8 @@ const Cart = () => {
           </div>
         </div>
       )}
-=======
-import "./Cart.css";
-
-const Cart = () => {
-  return (
-    <div className="cart-container">
-      <h1 className="cart-title">My Cart</h1>
->>>>>>> ae41a18d1cbf10515b49674a2a496843bc5cc4a1
     </div>
   );
 };
 
-<<<<<<< HEAD
-=======
-
->>>>>>> ae41a18d1cbf10515b49674a2a496843bc5cc4a1
 export default Cart;
