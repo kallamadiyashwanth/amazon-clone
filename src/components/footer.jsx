@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import '../styles/footer.css';
+=======
+import './style.css';
+>>>>>>> ae41a18d1cbf10515b49674a2a496843bc5cc4a1
 
 const Footer = () => {
     return (
