@@ -1,2 +1,1 @@
-# react-angular-26
-This is modern React JS application. 
+This project is a visual replica of the amazon platform
