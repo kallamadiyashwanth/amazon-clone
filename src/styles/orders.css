@@ -1,0 +1,78 @@
+.orders-container {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 0 15px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #0f1111;
+  min-height: 80vh;
+}
+
+.orders-breadcrumb {
+  font-size: 12px;
+  color: #565959;
+  margin-bottom: 20px;
+}
+
+.orders-breadcrumb .active {
+  color: #c45500;
+  font-weight: 500;
+}
+
+.orders-title {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.no-orders-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff;
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.no-orders-text {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.no-orders-card .shop-now-btn {
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
+  color: #0f1111;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+  transition: background-color 0.2s ease;
+}
+
+.no-orders-card .shop-now-btn:hover {
+  background-color: #f7ca00;
+  border-color: #f2c200;
+}
+
+@media (max-width: 600px) {
+  .orders-container {
+    padding: 0 10px;
+    margin: 10px auto;
+  }
+
+  .orders-title {
+    font-size: 22px;
+  }
+
+  .no-orders-card {
+    padding: 30px 15px;
+  }
+
+  .no-orders-text {
+    font-size: 18px;
+  }
+}
