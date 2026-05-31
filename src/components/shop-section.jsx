@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import "../styles/shop-section.css";
-=======
-import "./style.css";
->>>>>>> ae41a18d1cbf10515b49674a2a496843bc5cc4a1
 import { useNavigate } from "react-router-dom";
 // import game1 from '../assets/game1.jpg'
 const Shop = () => {

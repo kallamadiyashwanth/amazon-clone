@@ -4,11 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from "react-redux";
-<<<<<<< HEAD
 import { store } from "./redux/store"
-=======
-import { store } from "./redux/components/redux-flow/store"
->>>>>>> ae41a18d1cbf10515b49674a2a496843bc5cc4a1
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>

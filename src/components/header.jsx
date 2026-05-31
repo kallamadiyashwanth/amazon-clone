@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-<<<<<<< HEAD
 import { faBars, faCartShopping, faLocationDot, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { BrowserRouter as Router, Route, Routes, NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -12,29 +11,6 @@ import Orders from "./orders";
 import Login from "./login";
 import ProductView from "./common/ProductView";
 
-=======
-import {
-  faBars,
-  faCartShopping,
-  faLocationDot,
-  faMagnifyingGlass,
-} from "@fortawesome/free-solid-svg-icons";
-import "./style.css";
-import Shop from "./shop-section";
-import Address from "./Address";
-import SignIn from "./signin";
-import Cart from "./cart";
-import Orders from "./orders";
-import Login from "./login";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  NavLink,
-} from "react-router-dom";
-import ProductView from "./common/ProductView";
-import { useSelector} from "react-redux";
->>>>>>> ae41a18d1cbf10515b49674a2a496843bc5cc4a1
 const Header = () => {
   const cartCount = useSelector((state) => state.count);
   return (
@@ -48,11 +24,7 @@ const Header = () => {
               </div>
             </NavLink>
 
-<<<<<<< HEAD
             <NavLink to="/location" activeClassName="active">
-=======
-            <NavLink to="/address" activeClassName="active">
->>>>>>> ae41a18d1cbf10515b49674a2a496843bc5cc4a1
               <div class="nav-address border">
                 <p class="add-first">Deliver to</p>
                 <div class="add-icon">
@@ -121,7 +93,6 @@ const Header = () => {
             <div class="panel-deals">Shop deals in Electronics</div>
           </div>
 
-<<<<<<< HEAD
           <Routes>
             <Route path="/" element={<Shop />} />
             <Route path="/location" element={<Location />} />
@@ -130,27 +101,10 @@ const Header = () => {
             <Route path="/product-view" element={<ProductView />} />
             <Route path="/login" element={<Login />} />
           </Routes>
-=======
-          <div className="pagecontent">
-            <Routes>
-              <Route path="/" element={<Shop />} />
-              <Route path="/address" element={<Address />} />
-              <Route path="/signin" element={<SignIn />} />
-              <Route path="/orders" element={<Orders />} />
-              <Route path="/cart" element={<Cart />} />
-              <Route path="/product-view" element={<ProductView />} />
-              <Route path="/login" element={<Login />} />
-            </Routes>
-          </div>
->>>>>>> ae41a18d1cbf10515b49674a2a496843bc5cc4a1
         </Router>
       </header>
     </div>
   );
 };
 
-<<<<<<< HEAD
 export default Header;
-=======
-export default Header;
->>>>>>> ae41a18d1cbf10515b49674a2a496843bc5cc4a1
